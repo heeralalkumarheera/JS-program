@@ -212,3 +212,6 @@ console.table({ a: 1, b: 2, c: 3, d: 5, e: 9 });
 var name = "Heeralal Kumar Sahni"; // String
 var age = 25; // Number
 var isStudent = true;
+
+
+jhgjadhjfghljdflhjgad
