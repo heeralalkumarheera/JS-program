@@ -168,7 +168,7 @@
 // console.log(months)
 
 // console.table() method
-console.table({ a: 1, b: 2, c: 3, d: 5, e: 9 });
+//console.table({ a: 1, b: 2, c: 3, d: 5, e: 9 });
 
 // console.count() method
 // for(let i=0;i<5;i++){
@@ -209,6 +209,35 @@ console.table({ a: 1, b: 2, c: 3, d: 5, e: 9 });
 // inp = prompt("Hi", "No");
 
 // 1. Variables and Data Types
-var name = "Heeralal Kumar Sahni"; // String
-var age = 25; // Number
-var isStudent = true;
+// var name = "Heeralal Kumar Sahni"; // String
+// var age = 25; // Number
+// var isStudent = true;
+
+//mapping
+
+// Basic Syntax of map():
+// let newArray = oldArray.map(function(element) {
+//     // Return a transformed value
+// });
+// const array=[1, 2, 3, 4, 5];
+// let newArray=array.map(function(element) {return element*2;});
+// console.log(newArray); // [2, 4, 6, 8, 10]
+
+// for table
+// console.log(array*2); // [2, 4, 6, 8, 10]
+
+// const array1=[5,3,6,7,2,8,9,1,4]
+// let newArray1=array1.map(function(element) {return element*2;});
+// console.log(newArray1); // [10, 6, 12, 14, 4, 16, 18, 2, 8]
+
+//Mapping with Arrow Functions
+// const array = [1, 2, 3, 4, 5];
+// const newArray = array.map(element => element * 2);
+// console.log(newArray); // [2, 4, 6, 8, 10]
+
+// const array=[25,36,49,64,81,100]
+// const newArray=array.map(function(element) {return Math.sqrt(element)});
+// console.log(newArray); // [5, 6, 7, 8, 9, 10]
+
+// const newArray1 =array.map(function(element) {return array>50;});
+// console.log(newArray1); // [false, false, false, false, true, true]
