@@ -241,3 +241,5 @@
 
 // const newArray1 =array.map(function(element) {return array>50;});
 // console.log(newArray1); // [false, false, false, false, true, true]
+
+// 7:50
