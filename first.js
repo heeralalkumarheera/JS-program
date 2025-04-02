@@ -242,4 +242,57 @@
 // const newArray1 =array.map(function(element) {return array>50;});
 // console.log(newArray1); // [false, false, false, false, true, true]
 
-// 7:50
+
+// console.log(Date.now()); // 1698356480000
+
+// var d=new Date(2026,0,5);
+// console.log(d.toLocaleDateString()); // 1/5/2026
+
+// console.log(Math.min(5, 10, 15, 20)); // 5
+
+//math.random()
+// console.log(Math.random()); // 0.123456789
+
+// console.log(Math.floor(Math.random()*10)); // 0-9
+
+
+// let randowmNumber = Math.floor(Math.random() * 10) + 1;
+// console.log(randowmNumber); // 1-10 
+
+// table
+// obj={a:1,b:2,c:3}
+// console.table(obj);
+
+ 
+// revision fucntion
+
+// function heera(){
+//     console.log("hello world");
+// }
+// heera();
+
+// function heera1(){
+//     console.log("hello world1");
+// }
+// heera1();
+
+
+// //function with return value
+// function add(a,b){
+//     return a+b;
+// }
+// console.log(add(10,20)); //30
+
+// //function with parameter
+// function name(myName){
+//     console.log("Heera," +myName);
+// }
+// name("Sahni"); //Heera,Sahni
+
+// //function wiht arrow function
+// const multiply=(a,b)=>{
+//     return a*b;
+// }
+// console.log(multiply(10,20)); //200
+
+
