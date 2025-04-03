@@ -402,4 +402,4 @@
 // localStorage.setItem("name", "Heeralal Kumar Sahni");
 // localStorage.setItem("age", 25);
 // localStorage.setItem("city", "Darbhanga");
-// console.log(localStorage.getItem("name"));
+// console.log(localStorage.getItem("name")); 
