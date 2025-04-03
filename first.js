@@ -296,4 +296,54 @@
 // console.log(multiply(10,20)); //200
 
 
-//12.32
+// let numbers=[1, 2, 3, 4, 5];
+// let squares=numbers.map(num=> num*num);
+// console.log(squares); // [1, 4, 9, 16, 25]
+
+//or
+// console.log(numbers*numbers); // [1, 4, 9, 16, 25]
+
+
+//even no
+// let number=[i=0, i<=50, i+=1]
+// let evenNumber=number.filter(num=> num%2==0);
+// console.log(evenNumber); // [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
+
+
+//odd no
+// let number=[i=0, i<=50, i+=1]
+// let oddNumber=number.filter(num=> num%2!=0);
+// console.log(oddNumber); // [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
+
+//sorting
+// let array=[5, 3, 8, 1, 4];
+// array.sort();
+// console.log(array); // [1, 3, 4, 5, 8]
+
+//Create an Object
+// let person={
+//     name: "Heeralal Kumar Sahni",
+//     age: 25,
+//     city: "Darbhanga",
+//     };
+// console.log(person); // { name: 'Heeralal Kumar Sahni', age: 25, city: 'Darbhanga' }
+// //Accessing Object Properties
+// console.log(person.name); // Heeralal Kumar Sahni
+// console.log(person.age); // 25
+// console.log(person.city); // Darbhanga
+
+// //Adding Properties to an Object
+// person.age=26;
+// console.log(person.age); // 26
+// person.name="Heeralal";
+// console.log(person.name); // Heeralal
+// console.log(person); // { name: 'Heeralal', age: 26, city: 'Darbhanga' }
+
+// //deleting properties from an object
+// delete person.city;
+// console.log(person); // { name: 'Heeralal', age: 26 }
+
+// //looping through an object
+// for (let key in person) {
+//     console.log(key + ": " + person[key]);
+// }
