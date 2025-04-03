@@ -348,4 +348,58 @@
 //     console.log(key + ": " + person[key]);
 // }
 
-12.43
+//creating a class
+// class person{
+//     constructor(name,age,city){
+//         this.name=name;
+//         this.age=age;
+//         this.city=city;
+//     }
+//     greet(){
+//         console.log("Hello, my name is " + this.name);
+
+// }
+// }
+// const person1=new person("Heeralal Kumar Sahni",25,"Darbhanga");
+// const person2=new person("Ramesh Kumar Sahni",30,"Darbhanga");
+// console.log(person1);
+// console.log(person2);
+
+
+//selecting an element by id
+// let title=document.getElementById("title");
+// console.log(title); // <h1 id="title">Hello World</h1>
+// title.innerHTML="Hello Sahni"; // <h1 id="title">Hello Sahni</h1>
+
+
+//Event loop in javascript
+// console.log("Start");
+// setTimeout(function() {
+//     console.log("Timeout 1");
+// }, 5);
+// Promise.resolve().then(function() {
+//     console.log("Promise 1");
+// });
+// console.log("End");
+// console.log("Start");
+// setTimeout(() => {
+//     console.log("Delayed for 10 second.");
+//   }, 10000);
+
+//paraller function of timeout not wait for the first function to complete
+// setTimeout(() => {
+//     console.log("this is the first message");
+//   }, 5000);
+//   setTimeout(() => {
+//     console.log("this is the second message");
+//   }, 3000);
+//   setTimeout(() => {
+//     console.log("this is the third message");
+//   }, 1000);
+  
+
+//javascript local storage
+// localStorage.setItem("name", "Heeralal Kumar Sahni");
+// localStorage.setItem("age", 25);
+// localStorage.setItem("city", "Darbhanga");
+// console.log(localStorage.getItem("name"));
